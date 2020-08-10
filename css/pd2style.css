@@ -1,0 +1,189 @@
+* {
+  box-sizing: border-box;
+  font-family: "Helvetica Neue", "Helvetica", sans-serif;
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #aec6cf;
+  padding: .75rem;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+}
+
+nav a:hover, nav a:focus, nav a:active {
+  color: white;
+  padding-bottom: .8rem;
+}
+
+nav li {
+  display: inline;
+  margin-right: 1rem;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  padding-top: .5rem;
+  display: inline-block;
+}
+
+.searchBox {
+  float: right;
+}
+
+input[type=text] {
+  height: 2.5rem;
+  width: 27rem;
+  font-size: 1rem;
+  padding: .5rem;
+  vertical-align: bottom;
+}
+
+.searchBox button {
+  height: 2.5rem;
+  font-size: 1.5rem;
+  padding: .3rem;
+}
+
+.logo {
+  padding-left: 0em;
+  padding-right: 1em;
+  background-image: url("../img/sp-icon.png");
+  background-position: left;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.main-content {
+    flex: 1;
+    flex-basis: 0px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+
+}
+
+.section-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+  
+.card {
+    flex: 0 0 245px;
+    background-color: #aec6cf;
+    margin: .5rem;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.16), 0 1px 3px rgba(0,0,0,0.23);
+}
+  
+.card > p {
+  padding: .5rem 1rem;
+  border-radius: 10px;
+}
+  
+.card > img {
+  border-radius: 10px;
+  height: 220px;
+  width: 245px;
+  background-color: white;
+}
+  
+main {
+  flex: 1;
+  padding-top: 3.5rem;
+}
+  
+html {
+  height: 100%;
+}
+
+.footer-container {
+  position: relative;
+}
+
+.footer-wrap {
+  padding-bottom: 2.5rem;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 3.5rem;
+  text-align: center;
+}
+
+.footer-about-container {
+  position: relative;
+  min-height: 50vh;
+}
+
+.footer-suggestion-container {
+  position: relative;
+  min-height: 42vh;
+}
+
+.suggestion {
+  margin: .5rem 0;
+  padding: .5rem;
+  border: 1px solid gray;
+}
+
+.suggestion-button  {
+  margin: .5rem 0;
+  padding: .5rem 1rem;
+}
+
+.wsfb {
+  max-height: 400px;
+  max-width: 600px;
+}
+
+@media (min-width: 598px) {
+  #hamburger-menu {
+      display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+      background-position: center;
+      background-size: cover;
+  }
+
+  html {
+      height: 100%;
+  }
+
+  footer {
+      display: block;
+      position: fixed;
+      bottom: 0;
+      right: 0;
+  }
+}
+
+@media (min-width: 992px) {
+  nav > a{
+      font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  nav > a{
+    font-size: 1.5rem;
+  }
+}
