@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="author" content="Zhi Ye">
+  <meta name="description" content=" Data browsing app that displays a collection of food banks in Seattle, WA">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Seattle Pantries</title>
+
+  <!-- Favicon --> 
+  <link rel="icon" type="image/png" href="img/sp-icon.png">
+  
+  <!-- normalize.css for cross-browser -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+
+	<!-- link fonts and css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+	<link rel="stylesheet" href="css/pd2style.css">
+</head>
+
+<body>
+	<header>
+    <div class="flex-container"> 
+      <!-- Navigation bar -->
+      <nav class= "navbar" role="navigation">   
+        <div id="hamburger-menu"><a href="#"><i class="fa fa-bars" aria-label="menu"></i></a></div>
+        <ul>
+          <li aria-hidden="true"><span class="logo">&nbsp;</span>Seattle Pantries</li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="suggestion.html">Suggestions</a></li>
+        </ul>
+        <!-- Search box -->
+        <div class="searchBox" role="search">
+          <input type="text" placeholder="Search by name of place">
+          <button><i class="fa fa-search fa-rotate-90" aria-label="search"></i></button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Displaying each Food Bank in card form -->
+	<main>
+		<div class="flex-container">
+			<section class="main-content">
+				<div class="section-container">
+          <div class="card" onclick="location.href='details.html#wsfb';" style="cursor: pointer;">
+						<img src="img/wsfb.jpeg" alt="West Seattle Food Bank">
+            <p>West Seattle Food Bank</p>
+					</div>
+
+          <div class="card" onclick="location.href='sample.html';" style="cursor: pointer;">
+						<img src="img/pmfb.png" alt="Pike Market Senior Center Food Bank">
+						<p>Pike Market Senior Center Food Bank</p>
+					</div>
+
+          <div class="card" onclick="location.href='sample.html';" style="cursor: pointer;">
+						<img src="img/ecdlr.jpeg" alt="El Centro De La Raza">
+						<p>El Centro De La Raza</p>
+					</div>
+
+          <div class="card" onclick="location.href='sample.html';" style="cursor: pointer;">
+						<img src="img/rvfb.png" alt="Rainier Valley Food Bank">
+						<p>Rainier Valley Food Bank</p>
+					</div>
+
+          <div class="card" onclick="location.href='sample.html';" style="cursor: pointer;">
+						<img src="img/svdp.jpeg" alt="St. Vincent de Paul">
+						<p>St. Vincent de Paul</p>
+					</div>
+
+          <div class="card" onclick="location.href='sample.html';" style="cursor: pointer;">
+						<img src="img/wcfb.jpeg" alt="White Center Food Bank">
+						<p>White Center Food Bank</p>
+					</div>
+
+          <div class="card" onclick="location.href='sample.html';" style="cursor: pointer;">
+						<img src="img/ywca.png" alt="YWCA">
+						<p>YWCA</p>
+					</div>
+
+          <div class="card" onclick="location.href='sample.html';" style="cursor: pointer;">
+						<img src="img/fbstmary.jpeg" alt="The Food Bank @ St Mary's">
+						<p>The Food Bank @ St Mary's</p>
+          </div>
+				</div>
+      </section>
+  </main>
+  
+  <!-- Footer author info -->
+  <div class="footer-container">
+    <div class="footer-wrap">
+      <footer class="footer">
+        <p>Contact me at <a href="mailto:me@here.com">zjy@uw.edu</a></p>
+        <p>&copy; 2020 Zhi Ye</p>
+      </footer>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Zhi Ye">
+  <meta name="description" content="About content to describe Seattle Pantries web application.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Seattle Pantries</title>
+
+  <!-- Favicon --> 
+  <link rel="icon" type="image/png" href="img/sp-icon.png">
+  
+  <!-- normalize.css for cross-browser -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+
+  <!-- link fonts and css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+  <link rel="stylesheet" href="css/pd2style.css">
+</head>
+
+<body>
+	<header>
+    <div class="flex-container"> 
+      <!-- Navigation box -->
+      <nav class= "navbar" role="navigation">
+        <div id="hamburger-menu"><a href="#"><i class="fa fa-bars" aria-label="menu"></i></a></div>
+        <ul>
+          <li aria-hidden="true"><span class="logo">&nbsp;</span>Seattle Pantries</li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="suggestion.html">Suggestions</a></li>
+        </ul>
+        <!-- Search box -->
+        <div class="searchBox" role="search">
+          <input type="text" placeholder="Search by name of place">
+          <button><i class="fa fa-search fa-rotate-90" aria-label="search"></i></button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Details regarding Seattle Pantries -->
+    <section>
+      <h1>About Seattle Pantries</h1>
+      <p>
+        Seattle Pantries is a data browsing app that will focus on food banks in Seattle, WA. In the crisis of a pandemic, food security has been a high priority as people are facing financial problems that could prevent them from buying food. Recognizing this issue, I want to create a platform that allow Seattle citizens to view food banks that are available. By viewing food banks, users will obtain pertinent information such as name of the food bank, an image of the location, a description, address, phone number, open or closed status, hours of operation, a list of instructions on how to receive/donate food, and a website link for more information regarding the food bank.
+        <br />
+        <br />
+        For my app, the kind of interactions that I plan to provide is a filtering system that features a search bar, tags, sorting, and viewing by regions to explore the food banks available in Seattle. Additionally, food banks will be displayed in organized squares that will have an image and names that accompany it. Users will then be able to click on the square that represents the food bank to view its details. Within its details, I will include website links and google maps links for each food bank. The website link will provide the user the ability to click on it, which will send the user to the respective food bank website to view more information. Whereas, the google maps link will provide users with the directions to the location. The goal of this app is to communicate food bank resources that users are able to access to fulfill food needs and/or locations to donate.
+      </p>
+    </section>
+  </main>
+
+  <!-- Footer author info -->
+  <div class="footer-about-container">
+    <div class="footer-wrap">
+      <footer class="footer">
+        <p>Contact me at <a href="mailto:me@here.com">zjy@uw.edu</a></p>
+        <p>&copy; 2020 Zhi Ye</p>
+      </footer>
+    </div>
+  </div>
+
+</body>
+</html>
