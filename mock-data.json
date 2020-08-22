@@ -1,0 +1,66 @@
+[
+  {
+    "id": "B000944",
+    "name": "Sherrod Brown",
+    "state": "OH",
+    "party": "Democrat",
+    "phone": "202-224-2315",
+    "twitter": "SenSherrodBrown"
+  },
+  {
+    "id": "C000127",
+    "name": "Maria Cantwell",
+    "state": "WA",
+    "party": "Democrat",
+    "phone": "202-224-3441",
+    "twitter": "SenatorCantwell"
+  },
+  {
+    "id": "C000141",
+    "name": "Benjamin L. Cardin",
+    "state": "MD",
+    "party": "Democrat",
+    "phone": "202-224-4524",
+    "twitter": "SenatorCardin"
+  },
+  {
+    "id": "C000174",
+    "name": "Thomas R. Carper",
+    "state": "DE",
+    "party": "Democrat",
+    "phone": "202-224-2441",
+    "twitter": "SenatorCarper"
+  },
+  {
+    "id": "C001070",
+    "name": "Robert P. Casey, Jr.",
+    "state": "PA",
+    "party": "Democrat",
+    "phone": "202-224-6324",
+    "twitter": "SenBobCasey"
+  },
+  {
+    "id": "C000174",
+    "name": "Thomas R. Carper",
+    "state": "DE",
+    "party": "Democrat",
+    "phone": "202-224-2441",
+    "twitter": "SenatorCarper"
+  },
+  {
+    "id": "C000174",
+    "name": "Thomas R. Carper",
+    "state": "DE",
+    "party": "Democrat",
+    "phone": "202-224-2441",
+    "twitter": "SenatorCarper"
+  },
+  {
+    "id": "C000174",
+    "name": "Thomas R. Carper",
+    "state": "DE",
+    "party": "Democrat",
+    "phone": "202-224-2441",
+    "twitter": "SenatorCarper"
+  }
+]
