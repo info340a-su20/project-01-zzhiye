@@ -5,7 +5,7 @@
 	<meta charset="UTF-8">
 	<meta name="author" content="Zhi Ye">
   <meta name="description" content="A suggestion page for users to leave me suggestion for the website">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <title>Seattle Pantries</title>
   
@@ -17,13 +17,17 @@
 
   <!-- link fonts and css -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+  
+  <!-- Bootstrap for styling -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+
   <link rel="stylesheet" href="css/pd2style.css">
 </head>
 
-<body>
+<body class="container">
 	<header>
     <div class="flex-container"> 
-      <!-- Navigation bar -->
+    <!-- Navigation bar -->
       <nav class= "navbar" role="navigation">
         <div id="hamburger-menu"><a href="#"><i class="fa fa-bars" aria-label="menu"></i></a></div>
         <ul>
@@ -32,49 +36,35 @@
           <li><a href="about.html">About</a></li>
           <li><a href="suggestion.html">Suggestions</a></li>
         </ul>
-        <!-- Search box -->
+        
+        <!-- Search box
         <div class="searchBox" role="search">
           <input type="text" placeholder="Search by name of place">
-          <button><i class="fa fa-search fa-rotate-90" aria-label="search"></i></button>
-        </div>
+          <button type="button" disabled><i class="fa fa-search fa-rotate-90" aria-label="search"></i></button>
+        </div>         -->
       </nav>
     </div>
   </header>
+  <br />
+  <br />
+  <br />
+  <br />
+  <h1>Suggestions</h1>
 
-	<main>
-    <section class="suggestion">
-      <!-- Suggestion Form -->
-      <form>
-
-        <h2>Leave a suggestion</h2>
-
-        <div>
-          <label for="first_name_input">First Name:</label>
-          <input type="first_name" id="first_name_input" name="first-name">
-          <label for="last_name_input">Last Name:</label>
-          <input type="last_name" id="last_name_input" name="last-name">
-        </div>
-
-        <div>
-          <br />
-          <br />
-          <label for="email_input">Email:</label>
-          <input type="email" id="email_input" placeholder="email@domain.com" name="email">
-        </div>
-
-        <div>
-          <br />
-          <br />
-          <label for="comment_field">Comment:</label>
-          <textarea class="form-control" id="comment_field" name="comment"></textarea>
-        </div>
-
-        <button class="suggestion-button" type="submit"><i aria-label="Submit" class="fas fa-pencil-alt"></i></button>
-
-      </form>
-    </section>
-  </main>
+  <p id="alert-done" class="alert d-none">Alert!</p>  
   
+  <p class="lead">Suggestions for Seattle Pantries:</p>
+  <ol></ol>
+
+  <div class="form">
+    <div class="form-group">
+      <input type="text" id="task-input" class="form-control" placeholder="What else do you have to do?"/>
+    </div>
+    <div class="form-group">
+      <button type="button" id="add-task" class="btn btn-primary">Add suggestion to list</button>
+    </div>
+  </div>
+
   <!-- Footer author info -->
   <div class="footer-suggestion-container">
     <div class="footer-wrap">
@@ -84,5 +74,8 @@
       </footer>
     </div>
   </div>
+
+  <!-- include JavaScript file -->
+  <script src="js/index.js"></script>
 </body>
 </html>
