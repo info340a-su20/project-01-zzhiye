@@ -9,7 +9,7 @@
   left: 0;
   width: 100%;
   background-color: #aec6cf;
-  padding: .75rem;
+  padding: 1rem;
 }
 
 nav a {
@@ -34,8 +34,11 @@ nav ul {
   display: inline-block;
 }
 
-.searchBox {
+.nav-right {
   float: right;
+  margin: 0;
+  padding: 0;
+  padding-top: .5rem;
 }
 
 input[type=text] {
@@ -44,12 +47,6 @@ input[type=text] {
   font-size: 1rem;
   padding: .5rem;
   vertical-align: bottom;
-}
-
-.searchBox button {
-  height: 2.5rem;
-  font-size: 1.5rem;
-  padding: .3rem;
 }
 
 .logo {
@@ -106,8 +103,10 @@ input[type=text] {
   
 main {
   flex: 1;
-  padding-top: 7.5rem;
-  padding-bottom: 7.5rem;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  padding-left: 0.3rem;
+  padding-right: 0.3rem;
 }
   
 html {
@@ -137,7 +136,7 @@ html {
 
 .footer-suggestion-container {
   position: relative;
-  min-height: 42vh;
+  min-height: 46vh;
 }
 
 .suggestion {
@@ -158,6 +157,10 @@ html {
 
 .font-strike { 
   text-decoration: line-through; 
+}
+
+.jumbotron {
+  padding-top: 8rem;
 }
 
 @media (min-width: 598px) {
@@ -195,5 +198,3 @@ html {
     font-size: 1.5rem;
   }
 }
-
-

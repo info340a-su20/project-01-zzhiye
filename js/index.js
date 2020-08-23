@@ -2,7 +2,7 @@
 
 let state = {
   suggestionList: [
-    {id:1, description:'Add more food banks', complete:false},
+    {id:1, description:'Add Greenwood Food Bank', complete:false},
   ],
   inputtedText: ''
 };

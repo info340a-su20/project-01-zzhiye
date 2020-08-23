@@ -1,66 +1,66 @@
 [
   {
-    "id": "B000944",
-    "name": "Sherrod Brown",
-    "state": "OH",
-    "party": "Democrat",
-    "phone": "202-224-2315",
-    "twitter": "SenSherrodBrown"
+    "name": "West Seattle Food Bank",
+    "website": "https://westseattlefoodbank.org/",
+    "address": "3419 Southwest Morgan Street, Seattle, WA 98126",
+    "phone": "206-932-9023",
+    "status": "Open",
+    "hours": "Food Distribution Hours: Tuesdays: 9:00am – 1:00pm, Wednesdays: 10:00am – 3:00pm, Thursdays: 9:00am – 2:00pm, Fridays: 10:00am – 2:00 pm Office & Donation Hours: Monday – Friday: 9:00am – 3:00pm"
   },
   {
-    "id": "C000127",
-    "name": "Maria Cantwell",
-    "state": "WA",
-    "party": "Democrat",
-    "phone": "202-224-3441",
-    "twitter": "SenatorCantwell"
+    "name": "Pike Market Senior Center and Food Bank",
+    "website": "http://www.pmfb.org/",
+    "address": "1531 Western Ave P, Seattle, WA 98101",
+    "phone": "206-626-6462",
+    "status": "Open",
+    "hours": "Tuesdays: 9:30 am – 3:00 pm, Wednesdays: 3:00 pm – 7:00 pm, Thursdays: 9:30 am – 3:00 pm"
   },
   {
-    "id": "C000141",
-    "name": "Benjamin L. Cardin",
-    "state": "MD",
-    "party": "Democrat",
-    "phone": "202-224-4524",
-    "twitter": "SenatorCardin"
+    "name": "El Centro De La Raza",
+    "website": "http://www.elcentrodelaraza.org/",
+    "address": "2524 16th Ave S, Seattle, WA 98144",
+    "phone": "206-957-4634",
+    "status": "Open",
+    "hours": "Monday-Friday: 9:00am – 5:00pm"
   },
   {
-    "id": "C000174",
-    "name": "Thomas R. Carper",
-    "state": "DE",
-    "party": "Democrat",
-    "phone": "202-224-2441",
-    "twitter": "SenatorCarper"
+    "name": "Rainier Valley Food Bank",
+    "website": "http://www.rvfb.org/",
+    "address": "4205 Rainier Ave S Seattle, WA 98118",
+    "phone": "206-723-4105",
+    "status": "Open",
+    "hours": "Tuesday–Saturday: 8am – 2pm"
   },
   {
-    "id": "C001070",
-    "name": "Robert P. Casey, Jr.",
-    "state": "PA",
-    "party": "Democrat",
-    "phone": "202-224-6324",
-    "twitter": "SenBobCasey"
+    "name": "St. Vincent de Paul",
+    "website": "https://svdpseattle.org/",
+    "address": "5972 Fourth Avenue South Seattle, WA 98108",
+    "phone": "206-767-9975",
+    "status": "Open",
+    "hours": "Monday–Friday: 8:00am - 4:30pm"
   },
   {
-    "id": "C000174",
-    "name": "Thomas R. Carper",
-    "state": "DE",
-    "party": "Democrat",
-    "phone": "202-224-2441",
-    "twitter": "SenatorCarper"
+    "name": "White Center Food Bank",
+    "website": "https://www.whitecenterfoodbank.org/",
+    "address": "10829 8th Ave SW Seattle, WA 98146",
+    "phone": "206-762-2848",
+    "status": "Open",
+    "hours": "Monday–Friday: 8:00am – 4:00pm"
   },
   {
-    "id": "C000174",
-    "name": "Thomas R. Carper",
-    "state": "DE",
-    "party": "Democrat",
-    "phone": "202-224-2441",
-    "twitter": "SenatorCarper"
+    "name": "YWCA",
+    "website": "https://www.ywcaworks.org/",
+    "address": "1118 5th Ave, Seattle, WA 98101",
+    "phone": "206-461-4888",
+    "status": "Open",
+    "hours": "Monday-Friday: 8:00am – 5:00pm, Saturday-Sunday: 9:00am – 10:00pm"
   },
   {
-    "id": "C000174",
-    "name": "Thomas R. Carper",
-    "state": "DE",
-    "party": "Democrat",
-    "phone": "202-224-2441",
-    "twitter": "SenatorCarper"
+    "name": "The Food Bank @ St Mary's",
+    "website": "https://www.thefbsm.org/",
+    "address": "611 20th Avenue South Seattle, WA 98144",
+    "phone": "206-324-7100",
+    "status": "Open",
+    "hours": "Monday, Wednesday, and Friday: 10:00am – 1:00pm"
   }
 ]
